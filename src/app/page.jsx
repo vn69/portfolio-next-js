@@ -214,7 +214,8 @@ export default function Home() {
             I'm passionate about cutting-edge, pixel-perfect,<br></br> beautiful interfaces and intuitively implemented UX.
           </div>
 
-          <a target="_blank" className="text-slate-200 hover:text-teal-300 cursor-pointer border-b border-transparent hover:border-teal-300 w-fit" download href="/public/nguyenanhdoancv.pdf">Download my CV</a>
+          <a target="_blank" className="text-slate-200 hover:text-teal-300 cursor-pointer border-b border-transparent hover:border-teal-300 w-fit" 
+            download href="/files/nguyenanhdoancv.pdf">Download my CV</a>
 
           <div className="lg:mt-10"></div>
           {/* menu */}
