@@ -52,27 +52,28 @@ export default function Menu() {
     return rect.top <= window.innerHeight && rect.bottom >= 20;
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const aboutInView = checkInView("about");
-      const skillsInView = checkInView("skills");
-      const experienceInView = checkInView("experience");
-      const projectsInView = checkInView("projects");
-      if (aboutInView) {
-        onClickMenu(0);
-      } else if (skillsInView) {
-        onClickMenu(1);
-      } else if (experienceInView) {
-        onClickMenu(2);
-      } else if (projectsInView) {
-        onClickMenu(3);
-      }
-    };
+  const handleScroll = () => {
+    const aboutInView = checkInView("about");
+    const skillsInView = checkInView("skills");
+    const experienceInView = checkInView("experience");
+    const projectsInView = checkInView("projects");
+    if (aboutInView) {
+      onClickMenu(0);
+    } else if (skillsInView) {
+      onClickMenu(1);
+    } else if (experienceInView) {
+      onClickMenu(2);
+    } else if (projectsInView) {
+      onClickMenu(3);
+    }
+  };
 
+  useEffect(() => {
     window.addEventListener("scroll", handleScroll);
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
