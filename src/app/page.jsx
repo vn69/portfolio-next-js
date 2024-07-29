@@ -214,7 +214,7 @@ export default function Home() {
             Frontend Developer
           </h3>
           <div className="mb-4">
-            I'm passionate about cutting-edge, pixel-perfect,<br></br> beautiful interfaces and intuitively implemented UX.
+            I'm passionate about cutting-edge, pixel-perfect, beautiful interfaces and intuitively implemented UX.
           </div>
 
           <a target="_blank" className="text-slate-200 hover:text-teal-300 cursor-pointer border-b border-transparent hover:border-teal-300 w-fit" 
