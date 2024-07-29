@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .cv-text-highlight {
+        @apply inline-block hover:text-teal-300 text-slate-200;   
+    }
+}
