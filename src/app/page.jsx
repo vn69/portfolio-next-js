@@ -9,7 +9,7 @@ import TextBold from "@/components/textBold";
 export default function Home() {
   // skills
   const skills = [
-    `Deep knowledge of JS frameworks, especially the <span class="cv-text-highlight">VUE2</span>, <span class="cv-text-highlight">VUE3</span>, <span class="cv-text-highlight">NUXTJS</span>, <span class="cv-text-highlight">ES6</span>.`,
+    `Deep knowledge of JS frameworks, especially the <span class="cv-text-highlight">VUE</span>, <span class="cv-text-highlight">NUXTJS</span>, <span class="cv-text-highlight">REACTJS</span>, <span class="cv-text-highlight">NEXTJS</span>.`,
     "Ability to work with agile processes & teamwork.",
     "Be passionate about new technologies and be eager to learn them.",
     `<span class="cv-text-highlight">Teamwork</span>, <span class="cv-text-highlight">Logical thinking</span>, and <span class="cv-text-highlight">Problem-solving</span> skills.`,
@@ -20,8 +20,6 @@ export default function Home() {
     `Utilizing AI tools like <span class="cv-text-highlight">ChatGPT</span> and <span class="cv-text-highlight">GitHub Copilot</span> to enhance work productivity and minimize error occurrence.`,
     `Familiar with <span class="cv-text-highlight">Node.js</span>, <span class="cv-text-highlight">Express</span>, and <span class="cv-text-highlight">MongoDB</span>.`,
     `Experience with realtime communication libraries like <span class="cv-text-highlight">Websocket</span>, <span class="cv-text-highlight">Socket.IO</span>.`,
-    `Possible to switch to <span class="cv-text-highlight">TypeScript</span>, <span class="cv-text-highlight">ReactJS</span>, 
-    <span class="cv-text-highlight">NextJS</span>, or <span class="cv-text-highlight">Angular</span>.`,
   ];
 
   // experience
