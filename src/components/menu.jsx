@@ -49,7 +49,7 @@ export default function Menu() {
   const checkInView = (id) => {
     const element = document.getElementById(id);
     const rect = element.getBoundingClientRect();
-    return rect.top <= window.innerHeight && rect.bottom >= 20;
+    return rect.top <= window.innerHeight && rect.bottom >= 200;
   };
 
   const handleScroll = () => {
