@@ -1,10 +1,11 @@
 import GithubIcon from "/public/icons/github.svg";
 import FacebookIcon from "/public/icons/facebook.svg";
 import ArrowUp from "/public/icons/arrow_up.svg";
-import BgEffect from "@/components/backgroundEffect";
-import Menu from "@/components/menu";
-import WorkTimeLine from "@/components/workTimeLine";
-import TextBold from "@/components/textBold";
+import BgEffect from "@/components/BackgroundEffect";
+import Menu from "@/components/Menu";
+import WorkTimeLine from "@/components/WorkTimeLine";
+import TextBold from "@/components/TextBold";
+import Link from "next/link";
 
 export default function Home() {
   // skills
@@ -288,6 +289,14 @@ export default function Home() {
           </section>
         </main>
         <BgEffect></BgEffect>
+      </div>
+
+      <div className="fixed right-1 top-2 z-10">
+        <Link href="/editor"
+          className="bg-slate-700 p-2 text-white ml-2"
+        >
+          Try to editor this page
+        </Link>
       </div>
     </div>
   );
